@@ -1,0 +1,11 @@
+@import "html-tags.css";
+@import "html-ids.css";
+@import "html-classes.css";
+
+@media (max-width: 481px) {
+  #block-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

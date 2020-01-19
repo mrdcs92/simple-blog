@@ -5,7 +5,7 @@ html {
 body {
   max-width: 1040px;
   margin: auto;
-  background-image: url("../img/background-food-opacity.jpg");
+  background-image: url("../../img/background-food-opacity.jpg");
   grid-template-rows: 1fr auto;
 }
 
@@ -45,6 +45,15 @@ a {
   margin-bottom: 50px;
 }
 
+a:hover {
+  color: darkcyan;
+}
+
+button {
+  margin-left: 10px;
+  height: 50%;
+}
+
 #blog-header {
   font-family: "Lobster", cursive;
   font-size: 3.7em;
@@ -60,6 +69,7 @@ a {
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
+  color: darkred;
 }
 
 .blog-img {
@@ -74,21 +84,28 @@ a {
 }
 
 .author a {
-    font-family: "Lobster", cursive;
+  font-family: "Lobster", cursive;
+}
+
+.img-caption {
+  margin-top: 10px;
 }
 
 .main-content {
   min-height: calc(100vh - 70px);
 }
-
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
   height: 50px;
   font-family: "Lobster", cursive;
+  color: darkblue;
 }
 
 .footer-text {
   font-family: "Lobster", cursive;
+  color: darkblue;
 }

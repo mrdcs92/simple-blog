@@ -1,0 +1,19 @@
+#block-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", cursive;
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: darkred;
+}
+
+#block-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+}

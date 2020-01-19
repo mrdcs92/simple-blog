@@ -87,6 +87,43 @@ button {
   font-family: "Lobster", cursive;
 }
 
+.author-info {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.author-info-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.author-info-1 p {
+  margin-top: 3px;
+  margin-bottom: 1px;
+  font-size: 0.8em;
+}
+
+.author-info-2 {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.author-img {
+  height: 40%;
+  width: 40%;
+}
+
 .img-caption {
   margin-top: 10px;
 }
@@ -108,4 +145,12 @@ button {
 .footer-text {
   font-family: "Lobster", cursive;
   color: darkblue;
+}
+
+@media (max-width: 481px) {
+  .author-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }

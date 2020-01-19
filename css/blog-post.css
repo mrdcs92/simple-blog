@@ -70,6 +70,11 @@ a {
 
 .author {
   margin-top: 5px;
+  font-family: "Lobster", cursive;
+}
+
+.author a {
+    font-family: "Lobster", cursive;
 }
 
 .main-content {

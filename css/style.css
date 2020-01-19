@@ -114,19 +114,3 @@ a:hover {
     grid-template-rows: auto;
   }
 }
-
-@media (max-width: 320px) {
-  #block-2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-}
-
-@media (max-width: 360px) {
-  #block-2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-}

@@ -100,14 +100,30 @@ a:hover {
 }
 
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   height: 50px;
   font-family: "Lobster", cursive;
 }
 
 @media (max-width: 481px) {
+  #block-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  #block-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 360px) {
   #block-2 {
     display: grid;
     grid-template-columns: 1fr;
